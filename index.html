@@ -5,6 +5,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script>
+        function myfunction(){
+            document.querySelector('.mdl-layout').MaterialLayout.toggleDrawer();
+        }
+    </script>
 </head>
 
 <body>
@@ -74,9 +79,9 @@
                         Questo è il tuo dominio, il tuo angolo di internet. Penso che sia il momento che tu condivida col mondo il tuo talento, che spero tu trovi la forza di riconoscere in te stessa! Se non vorrai, va bene uguale. In ogni caso puoi sfogliare le pagine di questo sito per comprendere il gigantesco potenziale di questa piattaforma!
                     </div>
                     <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="myfunction()">
                             Let's Goooo!!
-                        </a>
+                        </button>
                     </div>
                     <div class="mdl-card__menu">
                         <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
