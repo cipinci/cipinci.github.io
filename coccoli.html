@@ -5,6 +5,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script>
+        function myfunction(){
+            document.querySelector('.mdl-layout').MaterialLayout.toggleDrawer();
+        }
+    </script>
 </head>
 
 <body>
@@ -73,7 +78,7 @@
                         Sono veramente buonissimi!!!
                     </div>
                     <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="myfunction()">
                             Mangia!
                         </a>
                     </div>
